@@ -4,12 +4,11 @@ import org.junit.jupiter.api.Test;
 
 class TestClassFizzBuzz {
 	FizzBuzz fizzbuzz = new FizzBuzz();
-	int input = fizzbuzz.getInt(8);
+	String input = fizzbuzz.toString("Buzz");
 	
 	@Test
-	void input_8_expence_output_is_8() {
-		assertEquals(8,input);
+	void input_10_expence_output_is_Buzz() {
+		assertEquals("Buzz",input);
 	}
-
 
 }

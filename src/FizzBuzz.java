@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class FizzBuzz {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-		int input = keyboard.nextInt();
+		String input = keyboard.toString();
 		System.out.println(input);
 		
-		int output = getInt(input);
+		String output = toString(input);
 		
 	}
-	public static int getInt(int kb) {
+	public static String toString(String kb) {
 		return kb;
 	}
 }
