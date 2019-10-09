@@ -3,13 +3,12 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class TestClassFizzBuzz {
-
 	FizzBuzz fizzbuzz = new FizzBuzz();
-	int input = fizzbuzz.getInt(4);
+	String input = fizzbuzz.toString("Fizz");
 	
 	@Test
-	void input_4_expence_output_is_4() {
-		assertEquals(4,input);
+	void input_6_expence_output_is_Fizz() {
+		assertEquals("Fizz",input);
 	}
 
 
